@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Images</title>
+	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+
+	<style type="text/css">
+		body {
+			background: black;
+			font-family: 'Source Sans Pro', sans-serif;
+		}
+
+		.wrapper {
+			width: 608px;
+			margin: 200px auto 0;
+		}
+
+		.wrapper div {
+			text-align: center;
+			width: 100%;
+			margin-bottom: 36px;
+			border: 1px solid #eee;
+			height: 100px;
+
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			flex-direction: column;
+		}
+		.wrapper div img {
+			margin-bottom: 24px;
+		}
+
+		.wrapper div span {
+			display: block;
+			width: 100%;
+			color: white;
+			font-size: 14px;
+		}
+	</style>
+</head>
+<body>
+	<div class="wrapper">
+		<div>
+			<img src="logo_wedeploy.png" srcset="logo_wedeploy.png 2x"/>
+			<span>logo_wedeploy.png</span>
+		</div>
+		<div>
+			<img src="logo_wedeploy_white.png" srcset="logo_wedeploy_white.png 2x"/>
+			<span>logo_wedeploy_white.png</span>
+		</div>
+	</div>
+</body>
+</html>
